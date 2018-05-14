@@ -1,5 +1,5 @@
 #!/bin/sh
-docker login -e $tungnawoi@gmail.com -u $witoongunta -p $root00--
+docker login -p root00-- -u witoongunta
 if [ "$TRAVIS_BRANCH" = "master" ]; then
     TAG="latest"
 else
